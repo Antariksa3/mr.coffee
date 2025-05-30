@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Coffee Menu | Discover Your Favorite Brew</title>
+    <link rel="icon" href="../assets/logo/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <img src="../assets/logo/logo-text.svg" alt="">
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="../home/home.html">HOME</a>
+            </li>
+            <li class="nav-link">
+                <a href="../rewards/rewards.html">REWARDS</a>
+            </li>
+            <li class="nav-link">
+                <a href="../aboutus/aboutus.html">ABOUT US</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">MENU</a>
+            </li>
+            <li class="nav-link">
+                <a href="../order/order.html">ORDER</a>
+            </li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="ri-menu-line" id="open-menu"></i>
+            <i class="ri-close-line" id="close-menu" style="display: none;"></i>
+        </div>
+        <a href="../order/order.html" class="nav-button-link">
+            <button class="nav-button">BUY A COFFEE</button>
+        </a>
+    </nav>
+    <main>
+        <div class="menu-section">
+            <div class="title-section">
+                <h1>Our Menu</h1>
+            </div>
+            <div class="filter-section">
+                <ul class="filter-category">
+                    <li><button data-category="all" class="active">All</button></li>
+                    <li><button data-category="espresso">
+                            <img src="../assets/icon/icon-espresso.svg" alt="">Espresso</button>
+                    </li>
+                    <li><button data-category="frappe"><img src="../assets/icon/icon-frappe.svg" alt="">Frappe</button>
+                    </li>
+                    <li><button data-category="brewed"><img src="../assets/icon/icon-brewed.svg" alt="">Brewed</button>
+                    </li>
+                    <li><button data-category="bread"><img src="../assets/icon/icon-bread.svg" alt="">Bread</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-wrapper">
+                <div class="menu-card" data-category="espresso">
+                    <img src="../assets/menu/menu-1.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Espresso</h2>
+                        <h2 class="product-price">$ 3.00</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Rich and bold espresso to kickstart your day.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="espresso">
+                    <img src="../assets/menu/menu-2.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Macchiato</h2>
+                        <h2 class="product-price">$ 3.50</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Bold and intense, served straight up.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="espresso">
+                    <img src="../assets/menu/menu-3.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Latte</h2>
+                        <h2 class="product-price">$ 4.00</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Creamy latte with a touch of artistry.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="frappe">
+                    <img src="../assets/menu/menu-4.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Mocha Frappe</h2>
+                        <h2 class="product-price">$ 4.50</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Chilled chocolate espresso blend.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="frappe">
+                    <img src="../assets/menu/menu-5.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Vanilla Frappe</h2>
+                        <h2 class="product-price">$ 4.20</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Sweet vanilla with creamy ice blend.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="brewed">
+                    <img src="../assets/menu/menu-6.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Americano</h2>
+                        <h2 class="product-price">$ 3.00</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Smooth black coffee, no distractions.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="brewed">
+                    <img src="../assets/menu/menu-7.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Cold Brewed</h2>
+                        <h2 class="product-price">$ 3.80</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Slow-steeped, bold, and smooth.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="bread">
+                    <img src="../assets/menu/menu-8.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Croissant</h2>
+                        <h2 class="product-price">$ 2.50</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Buttery croissant, perfect with your coffee.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+                <div class="menu-card" data-category="bread">
+                    <img src="../assets/menu/menu-9.png" alt="">
+                    <div class="menu-info">
+                        <h2 class="menu-name">Banana Bun</h2>
+                        <h2 class="product-price">$ 2.80</h2>
+                    </div>
+                    <div class="menu-desc">
+                        <p>Soft, sweet, and fresh-baked.</p>
+                    </div>
+                    <a href="../order/order.html">
+                        <button>Order Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-section">
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <a href="../home/home.html" class="footer-logo">
+                    <img src="../assets/logo/logo.svg" alt="Mr. Coffee Logo" />
+                    <span>mr. coffee</span>
+                </a>
+                <h2 class="footer-slogan">Every Cup Tells a Story</h2>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">
+                    Explore
+                </h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="../home/home.html" class="footer-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="../rewards/rewards.html" class="footer-link">Rewards</a>
+                    </li>
+                    <li>
+                        <a href="../aboutus/aboutus.html" class="footer-link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Menu</a>
+                    </li>
+                    <li>
+                        <a href="../order/order.html" class="footer-link">Order</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">
+                    Contact
+                </h3>
+                <ul class="footer-links">
+                    <li>
+                        <p class="footer-link"><i class="fa-solid fa-location-dot"></i> Address:
+                            Jl. Kopi Damai no. 12, Jakarta</p>
+                    </li>
+                    <li>
+                        <p class="footer-link"><i class="fa-solid fa-phone"></i> Phone:
+                            (021) 555-1234</p>
+                    </li>
+                    <li>
+                        <p class="footer-link"><i class="fa-solid fa-envelope"></i> Email:
+                            hello@mrcoffee.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">
+                    Follow Us
+                </h3>
+                <ul class="footer-social">
+                    <a href="#" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-x-twitter"></i></a>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__copy">
+            &#169; 2025 MR.COFFEE. All rights reserved.
+        </span>
+    </footer>
+    <script src="../navbar.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./menu.js"></script>
+
+</body>
+
+</html>

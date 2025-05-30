@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now | Get Your Favorite Coffee Delivered</title>
+    <link rel="icon" href="../assets/logo/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <img src="../assets/logo/logo-text.svg" alt="">
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a href="../home/home.html">HOME</a>
+            </li>
+            <li class="nav-link">
+                <a href="../rewards/rewards.html">REWARDS</a>
+            </li>
+            <li class="nav-link">
+                <a href="../aboutus/aboutus.html">ABOUT US</a>
+            </li>
+            <li class="nav-link">
+                <a href="../menu/menu.html">MENU</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">ORDER</a>
+            </li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="ri-menu-line" id="open-menu"></i>
+            <i class="ri-close-line" id="close-menu" style="display: none;"></i>
+        </div>
+        <a href="../order/order.html" class="nav-button-link">
+            <button class="nav-button">BUY A COFFEE</button>
+        </a>
+    </nav>
+
+    <main>
+        <div class="order-section">
+            <div class="title-section">
+                <h1>Place Your Order</h1>
+                <h2>Freshly brewed happiness, just a few clicks away.</h2>
+            </div>
+            <div class="order-wrapper">
+                <div class="order-img">
+                    <img src="../assets/image/order-barista.svg" alt="">
+                </div>
+                <div class="order-form">
+                    <form action="" class="form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="Enter your full name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" placeholder="you@example.com" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" placeholder="Enter your complete delivery address" id="address">
+                        </div>
+                        <div class="form-group">
+                            <label>Add-Ons (Optional)</label>
+                            <div class="checkbox-group">
+                                <label><input type="checkbox" name="addons" value="Whipped Cream"> Whipped
+                                    Cream</label><br>
+                                <label><input type="checkbox" name="addons" value="Oat Milk"> Oat Milk</label><br>
+                                <label><input type="checkbox" name="addons" value="Extra Shot"> Extra
+                                    Shot</label><br>
+                                <label><input type="checkbox" name="addons" value="Caramel Drizzle"> Caramel
+                                    Drizzle</label>
+                            </div>
+                        </div>
+                        <div class="form-group total-price">
+                            <label>Total Price</label>
+                            <label class="price">$ 3.00</label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="order-button">Place Order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <a href="../home/home.html" class="footer-logo">
+                    <img src="../assets/logo/logo.svg" alt="Mr. Coffee Logo" />
+                    <span>mr. coffee</span>
+                </a>
+                <h2 class="footer-slogan">Every Cup Tells a Story</h2>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">
+                    Explore
+                </h3>
+                <ul class="footer-links">
+                    <li>
+                        <a href="../home/home.html" class="footer-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="../rewards/rewards.html" class="footer-link">Rewards</a>
+                    </li>
+                    <li>
+                        <a href="../aboutus/aboutus.html" class="footer-link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="../menu/menu.html" class="footer-link">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Order</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">
+                    Contact
+                </h3>
+                <ul class="footer-links">
+                    <li>
+                        <p class="footer-link"><i class="fa-solid fa-location-dot"></i> Address:
+                            Jl. Kopi Damai no. 12, Jakarta</p>
+                    </li>
+                    <li>
+                        <p class="footer-link"><i class="fa-solid fa-phone"></i> Phone:
+                            (021) 555-1234</p>
+                    </li>
+                    <li>
+                        <p class="footer-link"><i class="fa-solid fa-envelope"></i> Email:
+                            hello@mrcoffee.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-title">
+                    Follow Us
+                </h3>
+                <ul class="footer-social">
+                    <a href="#" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-x-twitter"></i></a>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__copy">
+            &#169; 2025 MR.COFFEE. All rights reserved.
+        </span>
+    </footer>
+
+    <script src="../navbar.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./order.js"></script>
+</body>
+
+</html>
